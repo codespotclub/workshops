@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+
+<title>Paarth Madan</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<style>
+    body {
+    text-align: center;
+    font-family: "Arial";
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('https://static.pexels.com/photos/243136/pexels-photo-243136.jpeg');
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+ <img src="https://pbs.twimg.com/profile_images/828015595853664256/4RywejXV.jpg">
+        <h1 class="animated rotateIn">Paarth Madan </h1>
+        <p class="animated flash">Coder Ninja</p>
+        <p class="animated wobble">Professional Gidha Dancer by Night</p>
+
+<p id="helloText">?</p>
+<button id="clickButton" class="buttonStyle">Dance with Paarth</button>
+
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "hello@paarthmadan.com";
+}
+</script>
+
+</body>
+</html>
